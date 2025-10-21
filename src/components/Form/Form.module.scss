@@ -1,4 +1,4 @@
-.form-wrapper {
+.formWrapper {
   width: 100%;
   height: 80px;
 
@@ -11,8 +11,8 @@
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 
-  form {
-    input {
+  .form {
+    .input {
       width: 100%;
       height: 50px;
       color: #fff;
@@ -26,10 +26,11 @@
       box-shadow: none;
       outline: none;
     }
-    button {
+    .button {
       width: 50px;
       height: 50px;
-      background: transparent url('../images/plus.png') no-repeat center/cover;
+      background: transparent url('../../assets/images/plus.png') no-repeat
+        center/cover;
       position: absolute;
       top: 15px;
       right: 15px;

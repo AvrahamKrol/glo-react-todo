@@ -1,11 +1,11 @@
-import './Form.scss';
+import classes from './Form.module.scss';
 export const Form = () => {
   return (
-    <div className="form-wrapper">
-      <form action="#">
+    <div className={classes.formWrapper}>
+      <form action="#" className={classes.form}>
         <label>
-          <input type="text" />
-          <button></button>
+          <input className={`${classes.form} ${classes.input}`} type="text" />
+          <button className={`${classes.form} ${classes.button}`}></button>
         </label>
       </form>
     </div>
